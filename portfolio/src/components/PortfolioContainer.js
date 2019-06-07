@@ -57,22 +57,26 @@ class Portfolio extends Component {
     <Nav className="mr-auto">
       <Nav.Link
         currentPage={this.state.currentPage}
+        handlePageChange={this.handlePageChange}  onClick={() => this.handlePageChange("Home")}
+        className={this.currentPage === "Home" ? "nav-link active" : "nav-link"}>Home</Nav.Link>
+          <Nav.Link
+        currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}  onClick={() => this.handlePageChange("About")}
           className={this.currentPage === "About" ? "nav-link active" : "nav-link"}>Portfolio</Nav.Link>
       {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+      {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown"> */}
         {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item> */}
         {/* <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item> */}
         {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
-        <NavDropdown.Divider />
+        {/* <NavDropdown.Divider /> */}
         {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
-      </NavDropdown>
+      {/* </NavDropdown> */}
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
+      {/* <Nav.Link href="#deets">More deets</Nav.Link> */}
+      {/* <Nav.Link eventKey={2} href="#memes">
         Dank memes
-      </Nav.Link>
+      </Nav.Link> */}
     </Nav>
   </Navbar.Collapse>
 </Navbar>
