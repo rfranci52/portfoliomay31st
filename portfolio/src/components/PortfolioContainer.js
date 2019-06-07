@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import NavTabs from "./NavTabs";
+import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
@@ -49,18 +49,23 @@ class Portfolio extends Component {
         /> */}
         <div>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand    currentPage={this.state.currentPage}
+          handlePageChange={this.handlePageChange}  onClick={() => this.handlePageChange("Home")}
+          className={this.currentPage === "Home" ? "nav-link active" : "nav-link"}>React-Bootstrap</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link
+        currentPage={this.state.currentPage}
+          handlePageChange={this.handlePageChange}  onClick={() => this.handlePageChange("About")}
+          className={this.currentPage === "About" ? "nav-link active" : "nav-link"}>Portfolio</Nav.Link>
+      {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
       <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item> */}
+        {/* <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item> */}
+        {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
       </NavDropdown>
     </Nav>
     <Nav>

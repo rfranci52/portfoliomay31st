@@ -43,8 +43,8 @@ function NavTabs(props) {
       {/* <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a> */}
 
       <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
+          // href="#home"
+          // onClick={() => props.handlePageChange("Home")}
           className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
           Home
