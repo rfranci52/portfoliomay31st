@@ -1,6 +1,14 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
-import image from "../images/click-game.png"
+import clickgame from "../images/click-game.png"
+import googlebooks from "../images/google-books.png"
+import barbershop from "../images/the-barbershop.png"
+import "./style.css";
+
+
+
+
+
 
 
 const About = (props) => (
@@ -13,7 +21,7 @@ const About = (props) => (
        
         
         <div class="w3-col s6">
-                <img class="img1" src={image}alt="error"width="200px"/>
+                <img class="img1" src={clickgame}alt="error"width="200px"/>
                 <a class="img1_click" href="hw 6_final/index.html" />
                     <img src="icon.gif" alt=""/>
                 
@@ -36,13 +44,13 @@ const About = (props) => (
             </div>
 
             <div class="w3-col s6">
-                <img class="img1" href=".../public/click-game" alt="error"width="200px"/>
+            <img class="img1" src={googlebooks}alt="error"width="200px"/>
                 <a class="img1_click" href="hw 6_final/index.html" />
                     <img src="icon.gif" alt=""/>
                 
                 
            
-        <Button variant="outline-success"rel="noreferrer noopener" target="_blank" href="" >React Google Books Search coming soon</Button>
+        <Button variant="outline-success"rel="noreferrer noopener" target="_blank" href="" >React Google Books Search (coming soon)</Button>
         <Button variant="outline-success"rel="noreferrer noopener" target="_blank" href="https://github.com/rfranci52/react-google-books" >React Google Books Search Code</Button>
 
         
@@ -50,6 +58,25 @@ const About = (props) => (
 
 
             </div>
+          
+
+            <div class="portfolio-card">
+            <img class="img1" src={barbershop}alt="error"width="200px"/>
+                <a class="img1_click" href="hw 6_final/index.html" />
+                    <img src="icon.gif" alt=""/>
+                
+                
+           
+        <Button variant="outline-success"rel="noreferrer noopener" target="_blank" href="https://glacial-refuge-27656.herokuapp.com/" >The Barbershop (group project)</Button>
+        <Button variant="outline-success"rel="noreferrer noopener" target="_blank" href="https://github.com/makicoding/The-Barbershop" >The Barbershop (group project) Code</Button>
+
+        
+
+
+
+            </div>
+            
+            
             
             </div>
             
