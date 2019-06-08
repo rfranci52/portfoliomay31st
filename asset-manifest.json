@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3994a1d3.chunk.css",
-    "main.js": "/static/js/main.878bbc4f.chunk.js",
-    "main.js.map": "/static/js/main.878bbc4f.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.e8e7bf50.chunk.js": "/static/js/2.e8e7bf50.chunk.js",
-    "static/js/2.e8e7bf50.chunk.js.map": "/static/js/2.e8e7bf50.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.17a68ccd6732b85f886099d7b7e14dfb.js": "/precache-manifest.17a68ccd6732b85f886099d7b7e14dfb.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.3994a1d3.chunk.css.map": "/static/css/main.3994a1d3.chunk.css.map",
-    "static/media/click-game.png": "/static/media/click-game.7c9579e2.png",
-    "static/media/google-books.png": "/static/media/google-books.5e3f88a3.png",
-    "static/media/the-barbershop.png": "/static/media/the-barbershop.92a510bd.png"
+    "main.css": "/portfoliomay31st/static/css/main.3994a1d3.chunk.css",
+    "main.js": "/portfoliomay31st/static/js/main.878bbc4f.chunk.js",
+    "main.js.map": "/portfoliomay31st/static/js/main.878bbc4f.chunk.js.map",
+    "runtime~main.js": "/portfoliomay31st/static/js/runtime~main.9fe8fe82.js",
+    "runtime~main.js.map": "/portfoliomay31st/static/js/runtime~main.9fe8fe82.js.map",
+    "static/js/2.e8e7bf50.chunk.js": "/portfoliomay31st/static/js/2.e8e7bf50.chunk.js",
+    "static/js/2.e8e7bf50.chunk.js.map": "/portfoliomay31st/static/js/2.e8e7bf50.chunk.js.map",
+    "index.html": "/portfoliomay31st/index.html",
+    "precache-manifest.7b01e30103544599bbc5a42139af3852.js": "/portfoliomay31st/precache-manifest.7b01e30103544599bbc5a42139af3852.js",
+    "service-worker.js": "/portfoliomay31st/service-worker.js",
+    "static/css/main.3994a1d3.chunk.css.map": "/portfoliomay31st/static/css/main.3994a1d3.chunk.css.map",
+    "static/media/click-game.png": "/portfoliomay31st/static/media/click-game.7c9579e2.png",
+    "static/media/google-books.png": "/portfoliomay31st/static/media/google-books.5e3f88a3.png",
+    "static/media/the-barbershop.png": "/portfoliomay31st/static/media/the-barbershop.92a510bd.png"
   }
 }
