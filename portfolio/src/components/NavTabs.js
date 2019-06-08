@@ -44,7 +44,7 @@ function NavTabs(props) {
 
       <a
           // href="#home"
-          // onClick={() => props.handlePageChange("Home")}
+          onClick={() => props.handlePageChange("Home")}
           className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
           Home
