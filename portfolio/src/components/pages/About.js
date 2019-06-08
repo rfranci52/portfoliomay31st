@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
+
 
 
 
@@ -24,7 +26,8 @@ const About = (props) => (
 
 
   
-    
+  <ResponsiveEmbed aspect="a16by9">
+
  <div class="w3-white w3-margin">
    
         <div class="w3-container w3-padding w3-black">
@@ -95,9 +98,12 @@ const About = (props) => (
 </Row>
 
 </Container>  
+
             
   
             </div>
+            </ResponsiveEmbed>
+
 
             
         
