@@ -7,8 +7,7 @@ const Home = () => (
       <h1>Rakim Francis  
         Phone #: (646) 861-9173 
         Email: rakimfrancis@gmail.com  
-        Link to my Resume: <a href="          https://docs.google.com/document/d/1yo-Mwa7jm_ztl5bSS0936-jTvYYZ3OUz_vl2DRs4_HU/edit?usp=sharing
-        " class="w3-bar-item w3-button w3-padding-large">Click Me!</a>
+        Link to my Resume: <a href="https://docs.google.com/document/d/1yo-Mwa7jm_ztl5bSS0936-jTvYYZ3OUz_vl2DRs4_HU/edit?usp=sharing" class="w3-bar-item w3-button w3-padding-large">Click Me!</a>
 
 
 
