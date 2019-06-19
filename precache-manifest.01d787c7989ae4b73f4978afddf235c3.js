@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57ac512cea1617f7d94d159604c8574a",
+    "revision": "aaca637551becdce5ed0cf79e5db2569",
     "url": "/portfoliomay31st/index.html"
   },
   {
-    "revision": "8395e053bd9e27ee68e6",
+    "revision": "c63580d9ada9cc48c2e3",
     "url": "/portfoliomay31st/static/css/main.3994a1d3.chunk.css"
   },
   {
-    "revision": "d34183de94bb537e739e",
-    "url": "/portfoliomay31st/static/js/2.f12ff2e2.chunk.js"
+    "revision": "22a19778ac0ce69562f0",
+    "url": "/portfoliomay31st/static/js/2.0f3896f5.chunk.js"
   },
   {
-    "revision": "8395e053bd9e27ee68e6",
-    "url": "/portfoliomay31st/static/js/main.32c02ba2.chunk.js"
+    "revision": "c63580d9ada9cc48c2e3",
+    "url": "/portfoliomay31st/static/js/main.a7473958.chunk.js"
   },
   {
     "revision": "eef7a33ff23537f82432",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5e3f88a3c8f602715618267d69ae2d6b",
     "url": "/portfoliomay31st/static/media/google-books.5e3f88a3.png"
+  },
+  {
+    "revision": "f25e38aeca1d1d4df74570f83b8ad0e1",
+    "url": "/portfoliomay31st/static/media/google-map.f25e38ae.png"
   },
   {
     "revision": "92a510bd40dfb53c52c87ddf6ae2e79a",
